@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/* CSS Normal */
+.col-spacing {padding-right: 10px; padding-left: 10px;}
+.nav-pills .nav-link { border-radius: 0.25rem; font-size: 16px; }
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {font-size:16px; color: #2b2a2a!important; font-size: 16px; color: #2b2a2a!important; background-color: rgba(218, 218, 218, 0.4); -webkit-border-top-left-radius: 5px; -webkit-border-top-right-radius: 5px; -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; border-top-left-radius: 5px; border-top-right-radius: 5px; cursor:pointer;}
+.banner { background-color: #0c202e; position: relative; display: block; margin-top: 50px; height:180px; overflow: hidden;}
+.nav-link > span {  font-size: 12px; letter-spacing: 0.8px;}
+/*explorer */
+@media screen and (min-width:0\0) and (min-resolution:+72dpi){
+.related-box { display: block!important;}
+.profile-img {width: 200px!important; left: calc(50% - 75px)!important;}
+}
+/*explorer/ */
+.related-box {position: relative;display: flex;flex-direction: column;min-width: 0;word-wrap: break-word;background-color: rgba(255, 255, 255, 0.70);padding:5px;border-radius: 5px;box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.10);}
+.profile-box {position: relative;display: flex;flex-direction: column;	min-width: 0;word-wrap: break-word;background-clip: border-box;border-radius: 0px;padding: 10px 15px;border-radius: 5px;box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.20);}
+.white-box {position: relative;display: flex;flex-direction: column;min-width: 0; min-height: 250px; word-wrap: break-word;background-color: #fff;background-clip: border-box;border-radius: 0px;padding: 10px 15px;border-radius: 5px;box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.20);}
+.box {position: relative;display: flex;flex-direction: column;min-width: 0;padding: 10px 15px;}
+.btn-download {max-width: 210px; float: right; cursor: pointer; font-size: 15px; padding: 5px; font-weight: 400;}
+.btn-top-download {float: right; position: relative; top:-4px;  background-color: #0088ff; border-color: #0088ff; font-weight:600;}
+.btn-top-download:hover {background-color: #2499ff; border-color: #2499ff;}
+.btn-top-download:active {background-color: #1e87e2; border-color: #1e87e2;}
+.btn-top-download:focus {background-color: #1e87e2; border-color: #1e87e2;}
+
+.btn-report { float:left; position: relative; top: 5px; background: #323232;}
+.user-height {max-height: 55px;}
+.list-user {display: inline-flex; margin-bottom: 0px;}
+.view-heading {font-size: 1.6rem; font-weight: 700; margin-bottom: 20px;}
+/************* User Page**************/
+.user-bg {position: relative;padding-top:1rem;padding-bottom:1rem;background-repeat: no-repeat;background-size: cover;background-position: center;}
+.user-box {position: relative;display: flex;flex-direction: column;min-width: 0;word-wrap: break-word;background-color: rgba(255, 255, 255, 0.70);background-clip: border-box;border-radius: 0px;padding: 10px 15px;border-radius: 5px;box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.20);}
+.user-bar {box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.20);}
+.profile-adjuster { padding-top: 45px;}
+.profile-list { font-size:14px; line-height:26px;}
+.profile-list i { margin-right: 5px;}
+.profile-social { display: flex;}
+.profile-social li { margin: 0 5px;}
+.profile-social li a {background: #b9b9b9; height: 30px; width: 30px; display: block; text-align: center; line-height: 26px; color: white!important; border-radius: 5px; font-size: 1.5rem; padding: 4px;}
+.profile-social li a:hover {background: #a0a0a0; color: #ffffff!important; text-decoration: none;}
+.profile-img {max-width: 160px; border-radius: 50%; border: 5px solid #fff; position: absolute; top: -120px; left: calc(50% - 80px); z-index: 1;}
+/*************User Page End**************/
+/*************Related View**************/
+.related-grid { margin: 0;padding: 5px; position: relative;}
+.related-grid a, a:hover {text-decoration: none;}
+.related-grid .img-item {position: absolute;top: 0;bottom: 2px;left: 0;right: 0}
+.related-grid .list-centerer {text-align: center;font: 0/0 a}
+.related-grid .list-centerer:before {height: 100%;}
+.related-grid .centered-img {max-height: 100%; max-width: 100%; border: 1px solid #bbbbbb; box-shadow: 2px 2px 3px rgba(208, 208, 208, 0.60);}
+.related-grid .centered-img, .list-centerer:before {vertical-align: middle;display: inline-block;}
+.related-grid .list-image-related {position: relative;overflow: hidden;height: 155px;float: left; width: 35%; margin-right: 15px;}
+.related-grid .list-related-info {color: #717171;font-size: 14px;line-height: 18px;height: 145px;overflow: hidden;text-align: left; margin: 0px; padding: 0px;}
+.related-grid .list-item-related {padding: 0}
+.related-grid .list-item-related span {color: #2c3e50; font-size: 16px;}
+.related-grid .list-item-related span {color: #2c3e50; font-size: 16px;}
+.list-user {}
+.follow button {padding: 0px 6px; position: relative; font-size: 11px; border: 1px solid #dadada; left: 0px;}
+.profile { margin: 0px;display: block;padding: 0px;width: 25px; height: 25px;}
+/*************Related View**************/
+/************* Left Side**************/
+.press-details h1 {font-size: 1.4rem; margin-top:0px; font-weight: 400;}
+.press-details h1 > .small {font-size: 70%;}
+.ss-statistics { display: block; position: absolute; right: 0px; }
+/************* Left Side End**************/
+
+/***view page pagination***/
+.view-pagination{list-style: none; justify-content: center;}
+.view-pagination .disabled{background: rgba(9, 33, 46, 0.48); cursor: default;}
+.view-pagination li.npbuttons{background: #09212e; border-radius: 50%; width: 25px;height: 25px; color: #ffffff; cursor: pointer; padding: 3px 0px;}
+.view-pagination li > i{text-align: center;display: block;line-height: 19px;}
+.view-pagination p{padding: 3px 14px; cursor: default;}
+/***view page pagination/***/
+
+/************* Channel-List View **************/
+.channel-list, .channel-list-item:hover { color: #2b2a2a;text-decoration: none;}
+.channel-list-item { width:100%; margin:10px 0px; box-shadow: 2px 5px 5px rgba(199, 199, 199, 0.40); border-radius: 2px;}
+.channel-list-item  > .channel-list-image img {width: 100%;}
+.channel-list-item  > .channel-profile {position: relative; z-index: 1; top: -32px; left: 10px;}
+.channel-list-item  > .channel-profile img {border-radius: 50%; max-width: 65px; border: 2px solid #ffffff;}
+.channel-list-item  > .channel-profile span {top: 10px; position: relative;}
+.channel-list-item  > .channel-list-info { margin: 10px; display: inline-block; font-weight: 400; width: calc(100% - 20px); margin-top: -18px;}
+.channel-list-item  > .channel-list-info > h5 {font-weight: 400; display: block; max-height: 45px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.channel-list-item  > .channel-list-info > p {font-size: 13px; display: block; max-height: 45px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; margin-top: 5px;}
+.channel-list-image { height: 0px; padding-bottom: 33%; overflow: hidden; }
+.channel-list-item  > .channel-list-info ul { list-style: none; margin: 0px; padding: 0px; font-size: 13px; margin-top: 5px; line-height: 18px; font-weight:300;}
+/************* Channel-List View/ **************/
+/************* followers *************/
+.followers-link, .followers-item:hover { color: #2b2a2a; text-decoration: none;}
+.followers-item { width: 100%; margin: 10px 0px; padding-bottom: 5px; box-shadow: 2px 5px 5px rgba(199, 199, 199, 0.40); border-radius: 2px; background: #fff;}
+.followers-image { height: 100%;}
+.followers-image img {width: 100%;}
+.followers-item span {display: block; max-height: 45px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;margin:10px;}
+.followers-item p { display: block; max-height: 45px; height: 35px; overflow: hidden; /*white-space: nowrap; text-overflow: ellipsis;*/ margin: 0px 10px 0px 10px;}
+.followers-item ul{list-style: none; padding: 0px; font-size: 12px; line-height: 18px; font-weight: 400; display: flex;margin: 5px 10px 5px; letter-spacing: 0.50px;}
+/*explorer */
+@media screen and (min-width:0\0) and (min-resolution:+72dpi) {
+.followers-link  span{display: flex;}
+}
+
+/*explorer/ */
+/************* followers/ *************/
+
+/************* Custom css**************/
+.tab-b-b {border-bottom: 1px solid #dadada;}
+.follow-btn {position: absolute; top: -50px; right: 0px;}
+/************* Custom css**************/
+
+@media (min-width: 576px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+.display-2{display: none;}
+}
+@media (min-width: 1200px) {
+}
+@media (max-width: 576px) {
+}
+@media (max-width: 768px) {
+.btn-download {max-width:300px; float: left;}
+}
+@media (max-width: 992px) {
+.order-profile-first {-ms-flex-order: -1;order: -1;}
+.order-profile-last {-ms-flex-order: 13;order: 13;}
+.profile-adjuster { padding-top:20px; margin-top: 15px;}
+.profile-img {max-width:160px; border-radius: 50%; border: 5px solid #ececec; position: relative; top:0px; left: calc(50% - 80px); z-index: 1;}
+.display-1{display: none;}
+.display-2{box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.20);margin: 2rem 0 1rem; background:#fff;}
+.ss-statistics { position: relative; top: 0px; right: 0px; border: 1px solid #e6e6e6; background:#fbfbfb; width: 100%; display: block; border-radius:5px; box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.05);}
+
+}
+@media (max-width:1199px) {
+.hide-text{display:none;}
+}
+@media (max-width: 1200px) {
+.btn-download {font-size: 14px;padding: 5px 8px;}
+}
+/* SS Peekin Popup */
+.ss-peekin {position:fixed; background: #ffffff; border-radius: 5px; box-shadow: 0px 6px 10px 4px rgba(90, 90, 90, 0.2); padding:15px; display: block; bottom: -2%; right: 1.5%; width: 160px; z-index: 1050; text-align: center;}
+.ss-peekin .icon-close {right: 10px; position: absolute; top: 5px; color: #295d82; visibility: visible;}
+.ss-peekin .icon-close:hover{right: 6px; background: #09212e; padding: 0px 5px; border-radius: 5px; color: #ffffff; font-size: 14px;}
+.ss-peekin > .popup-content{padding: 6px 0px;}
+.ss-peekin >.popup-content > i{ font-size: 64px; padding: 0px 0px 13px 0px;}
+.ss-peekin > .popup-content > h6{color: #09212e;}
+.ss-peekin > .popup-content > p{padding:0px; margin: 0px; color: #5a5a5a; font-size: 12px;}
+.ss-peekin > .popup-content > a{border: 1px solid #1e4154; background: #1e4154; color: #ffffff!important; text-decoration: none; border-radius: 5px; padding: 6px 10px 6px 10px; -moz-padding: 6px 6px 6px 16px; font-size: 11px}
+.ss-peekin > .popup-content > a:hover{border:1px solid #2a5871; background: #2a5871; color: #ffffff!important;}
+.ss-peekin > .popup-content > img {    border: 1px solid #c5c5c5;}
+
+
+/* SS Peekin Popup */

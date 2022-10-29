@@ -1,0 +1,44 @@
+#pdfloader {
+    width:100%;    
+    background-color: #404040;
+    height: calc(100vh - 200px);
+}
+#pdfloader iframe{
+    width:100%;
+    height: 100%;
+}
+
+
+.pre-loader {  position: absolute;  z-index: 1;  top: calc(50% - 25px);  left: calc(50% - 25px);  width: 50px;  height: 50px;  display: inline-block; padding: 0}
+.pre-loader {  border-radius: 100%;  border: 2px solid;  border-top-color: rgba(218, 218, 218, .65);  border-bottom-color: rgba(189, 189, 189, .15) border-left-color: rgba(189, 189, 189, .15) border-right-color: rgba(189, 189, 189, .15) -webkit-animation: ssloader .8s linear infinite;   animation: ssloader .8s linear infinite}
+a.pre-loader{  display: none; }
+.loading a.pre-loader{  display: inline-block !important; }
+
+
+
+@media only screen and (max-width:450px) {    
+    .pre-loader {
+        top: calc(50% - 25px);
+        left: calc(50% - 15px);
+        width: 30px;
+        height: 30px
+    }    
+}
+
+@keyframes ssloader {
+    from {
+        transform: rotate(0)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+@-webkit-keyframes ssloader {
+    from {
+        -webkit-transform: rotate(0)
+    }
+    to {
+        -webkit-transform: rotate(360deg)
+    }
+}
